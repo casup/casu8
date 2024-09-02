@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.txt{
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-right:4%;
+    font-family: "Montserrat", sans-serif;  
+    font-size: 18px;
+    color:  #efe1cf;
+}
+
+.container1{
+
+    padding-left: 5rem;
+    padding-top: 2%;
+    padding-right:5rem;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 3rem;
+}
+
+
+.img2{
+    width:max(25vw);
+
+    padding-left: 4%;
+   
+    padding-right:2%;
+}
+.container2{
+    padding-right: 5rem;
+    padding-left: 7rem;
+    display: flex;
+    font-size: 17px;
+    color: #c39c68;
+    text-align: center; 
+    font-family: "Montserrat", sans-serif;
+}
+.conteiner3{
+    background-color: #cbb9a1;
+}
+.projetostxt{
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-right:4%;
+    font-family: "Montserrat", sans-serif;  
+    font-size: 18px;
+    color:#fff;
+  
+  
+}
+.projetos{
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-right:30%;
+    font-family: "Montserrat", sans-serif;  
+    font-size: 15px;
+    color:#fff;
+
+}
+.obrastxt{
+    padding-left: 90%;
+    padding-top: 4%;
+    padding-right:4%;
+    font-family: "Montserrat", sans-serif;  
+    font-size: 18px;
+    color:#fff;
+  
+}
+.obras{
+    padding-left: 30%;
+    padding-top: 1%;
+    padding-right:4%;
+    font-family: "Montserrat", sans-serif;  
+    font-size: 15px;
+    color:#fff; 
+}
+.decoracaotxt{
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-right:4%;
+    font-family: "Montserrat", sans-serif;  
+    font-size: 18px;
+    color:#fff;
+    text-align:left;
+}
+.decoracao{
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-right:30%;
+    font-family: "Montserrat", sans-serif;  
+    font-size: 15px;
+    color:#fff;  
+    padding-bottom: 3%;
+}
+@media screen and (max-width: 1062px){
+    .container1{
+
+        padding-left: 3rem;
+    }
+    .container2{
+        padding-right: 3rem;
+        padding-left: 5rem;
+        
+    }
+}
+@media screen and (max-width: 968px){
+    .container1{
+
+        padding-left: 3rem;
+    }
+    .container2{
+        padding-right: 3rem;
+        padding-left: 3rem;
+        
+    }
+    .obrastxt{
+        padding-left: 88%;
+      
+    }
+}
+@media screen and (max-width: 951px){
+    .container1{
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    .container2{
+        padding-right: 2rem;
+        padding-left: 2rem;
+        
+    }
+    .obrastxt{
+        padding-left: 88%;
+      
+    }
+}
+@media screen and (max-width: 840px){
+    .container1{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .container2{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        
+    }
+    .obrastxt{
+        padding-left: 87%;
+      
+    }
+}
+@media screen and (max-width: 840px){
+    .container1{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .container2{
+        padding-right: 2rem;
+        padding-left: 2rem;
+        font-size: 15px;
+        
+    }
+    .obrastxt{
+        padding-left: 86%;
+      
+    }
+    .img2{
+        width:max(30vw);
+    
+        padding-left: 4%;
+       
+        padding-right:2%;
+    }
+}
+@media screen and (max-width: 840px){
+    .container1{
+        padding-right: 1rem;
+        padding-left: 2%;
+        display: block;
+    }
+    .container2{
+        padding-right: 2rem;
+        padding-left: 2rem;
+        font-size: 15px;
+        display: block;
+    }
+    .obrastxt{
+        padding-left: 85%;
+      
+    }
+    .img2{
+        width:max(70vw);
+        padding-left: 12rem;
+        padding-right: 17rem;
+        flex-direction: column;
+        padding-right:2%;
+        padding-bottom: 2rem;
+        
+    }
+    .txt{
+        padding-left: 6%;
+        padding-top: 5%;
+       
+    }
+}
+@media screen and (max-width: 599px){
+
+    .obrastxt{
+        padding-left: 80%;
+      
+    }
+    .obras{
+        padding-right:7%; 
+        padding-left: 20%;
+      
+    }
+    .decoracaotxt{
+        padding-left: 7%;
+        padding-top: 4%;
+
+    }
+    .decoracao{
+        padding-left: 7%;
+        padding-top: 4%;
+        padding-right: 20%;
+    }
+    .projetostxt{
+        padding-left: 7%;
+        padding-top: 4%;
+
+    }
+    .projetos{
+        padding-left: 7%;
+        padding-top: 4%;
+        padding-right: 20%;
+    }
+    .conteiner3{
+        padding-bottom: 3rem;
+    }
+    
+
+
+    }
+    @media screen and (max-width: 550px){
+
+        .obrastxt{
+            padding-left: 74%;
+          
+        }
+        .obras{
+            padding-right:3rem; 
+            padding-left: 10%;
+          
+        }
+        .decoracaotxt{
+            padding-left: 7%;
+            padding-top: 4%;
+    
+        }
+        .decoracao{
+            padding-left: 7%;
+            padding-top: 4%;
+            padding-right: 15%;
+        }
+        .projetostxt{
+            padding-left: 7%;
+            padding-top: 4%;
+    
+        }
+        .projetos{
+            padding-left: 7%;
+            padding-top: 4%;
+            padding-right: 15%;
+        }
+        .conteiner3{
+            padding-bottom: 3rem;
+        }
+        
+
+       
+            .img2{
+                width:max(70vw);
+            align-items: center;
+                padding-left: 8rem;
+               display: flex;
+              
+           
+                padding-right:2%;
+            }
+    
+        .txt{
+            padding-left: 10%;
+           
+        padding-bottom: 2%;
+        }
+        }
+        @media screen and (max-width: 453px){
+
+            .obrastxt{
+                padding-left: 71%;
+              
+            }
+            .obras{
+                padding-right:3rem; 
+                padding-left: 9%;
+              
+            }
+            .decoracaotxt{
+                padding-left: 9%;
+                padding-top: 4%;
+               
+        
+            }
+            .decoracao{
+                padding-left: 9%;
+                padding-top: 4%;
+                padding-right: 11%;
+            }
+            .projetostxt{
+                padding-left: 9%;
+                padding-top: 4%;
+        
+            }
+            .projetos{
+                padding-left: 9%;
+                padding-top: 4%;
+                padding-right: 11%;
+            }
+            .conteiner3{
+                padding-bottom: 3rem;
+            }
+            
+    
+           
+                .img2{
+                    width:max(70vw);
+                align-items: center;
+                    padding-left: 8rem;
+                   display: flex;
+                  
+               
+                    padding-right:2%;
+                }
+        
+            .txt{
+                padding-left: 10%;
+               
+            padding-bottom: 2%;
+            }
+            }
+            @media screen and (max-width: 427px){
+
+                .obrastxt{
+                    padding-left: 69%;
+                  
+                }
+                .obras{
+                    padding-right:3rem; 
+                    padding-left: 9%;
+                  
+                }
+                .decoracaotxt{
+                    padding-left: 9%;
+                    padding-top: 4%;
+                   
+            
+                }
+                .decoracao{
+                    padding-left: 9%;
+                    padding-top: 4%;
+                    padding-right: 11%;
+                }
+                .projetostxt{
+                    padding-left: 9%;
+                    padding-top: 4%;
+            
+                }
+                .projetos{
+                    padding-left: 9%;
+                    padding-top: 4%;
+                    padding-right: 11%;
+                }
+                .conteiner3{
+                    padding-bottom: 3rem;
+                }
+                
+        
+               
+                    .img2{
+                        width:max(75vw);
+                    align-items: center;
+                        padding-left: 6rem;
+                       display: flex;
+                      
+                   
+                        padding-right:2%;
+                    }
+            
+                .txt{
+                    padding-left: 10%;
+                   
+                padding-bottom: 2%;
+                }
+                } @media screen and (max-width: 394px){
+
+                    .obrastxt{
+                        padding-left: 68%;
+                      
+                    }
+                    .obras{
+                        padding-right:3rem; 
+                        padding-left: 9%;
+                      
+                    }
+                    .decoracaotxt{
+                        padding-left: 9%;
+                        padding-top: 4%;
+                       
+                
+                    }
+                    .decoracao{
+                        padding-left: 9%;
+                        padding-top: 4%;
+                        padding-right: 11%;
+                    }
+                    .projetostxt{
+                        padding-left: 9%;
+                        padding-top: 4%;
+                
+                    }
+                    .projetos{
+                        padding-left: 9%;
+                        padding-top: 4%;
+                        padding-right: 11%;
+                    }
+                    .conteiner3{
+                        padding-bottom: 3rem;
+                    }
+                    
+            
+                   
+                        .img2{
+                            width:max(80vw);
+                        align-items: center;
+                            padding-left: 4rem;
+                           display: flex;
+                          
+                       
+                            padding-right:2%;
+                        }
+                
+                    .txt{
+                        padding-left: 10%;
+                       
+                    padding-bottom: 2%;
+                    }
+                    }
+                    @media screen and (max-width: 355px){
+
+                        .obrastxt{
+                            padding-left: 63%;
+                          
+                        }
+                        .obras{
+                            padding-right:3rem; 
+                            padding-left: 9%;
+                          
+                        }
+                        .decoracaotxt{
+                            padding-left: 9%;
+                            padding-top: 4%;
+                           
+                    
+                        }
+                        .decoracao{
+                            padding-left: 9%;
+                            padding-top: 4%;
+                            padding-right: 11%;
+                        }
+                        .projetostxt{
+                            padding-left: 9%;
+                            padding-top: 4%;
+                    
+                        }
+                        .projetos{
+                            padding-left: 9%;
+                            padding-top: 4%;
+                            padding-right: 11%;
+                        }
+                        .conteiner3{
+                            padding-bottom: 3rem;
+                        }
+                        
+                
+                       
+                            .img2{
+                                width:max(80vw);
+                            align-items: center;
+                                padding-left: 4rem;
+                               display: flex;
+                              
+                           
+                                padding-right:2%;
+                            }
+                    
+                        .txt{
+                            padding-left: 10%;
+                           
+                        padding-bottom: 2%;
+                        }
+                        .container2{
+                            padding-right: 1rem;
+                            padding-left: 1.5rem;
+                            font-size: 15px;
+                            
+                        }
+                        }
